@@ -27,11 +27,6 @@ yarn-error.log*
 
 # Temp / editor files
 *.tmp
-*.swp
-.DS_Store
-Thumbs.db
-.vscode/settings.json
-.idea/
 
 # Node
 node_modules/
@@ -47,3 +42,18 @@ lcov.info
 # Vite / TypeScript cache
 *.tsbuildinfo
 .vite/
+
+# IDE / editor configs
+.kiro/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# PR / temp files
+pr_body.txt
+
+# OS files
+.DS_Store
+Thumbs.db
